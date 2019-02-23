@@ -1,0 +1,25 @@
+{
+    "name": "cgland/thinkphp-auth",
+    "description": "auth package for thinkphp5",
+    "homepage": "https://github.com/david199118/thinkphp-auth",
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "david",
+            "email": "571134141@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/david199118/thinkphp-auth/issues"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\auth\\": "src/"
+        }
+    }
+}
